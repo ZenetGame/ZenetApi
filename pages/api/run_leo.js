@@ -6,10 +6,7 @@ const execAsync = promisify(exec);
 export default async (req, res) => {
   const { command, params } = req.query;
 
-/*   if (!name || !age) {
-    res.status(400).json({ error: 'Both "name" and "age" parameters are required.' });
-    return;
-  } */
+
 
   try {
     const { stdout, stderr } = await execAsync(`leo run ${command}`);
