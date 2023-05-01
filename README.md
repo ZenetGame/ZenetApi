@@ -1,3 +1,3 @@
 # ZenetApi
 
-Deprecated after deploting to Testnet, use AleoFrontend.
+Deprecated after deploying to Testnet, use AleoFrontend.
